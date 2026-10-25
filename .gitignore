@@ -1,0 +1,14 @@
+# ---- credentials: never commit ----
+.env
+.env.*
+*_key.txt
+*.pem
+*.key
+
+# ---- runtime artifacts, fitted models, recorded data: private, not published ----
+var/
+
+# ---- python / jupyter ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
